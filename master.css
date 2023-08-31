@@ -7,7 +7,7 @@
 }
 
 html {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 body {
@@ -19,6 +19,10 @@ body {
     height: fit-content;
 }
 
+.fixed {
+    width: 100%;
+    position: fixed;
+}
 .menu-container {
     position: relative;
     display: flex;
@@ -237,6 +241,9 @@ body {
 }
 
 .vision h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #e70000;
     margin: 10px 0px;
     padding-bottom: 20px;
 }
@@ -252,11 +259,13 @@ body {
 }
 
 .about h1 {
-    
-    margin-top: 20px;
+display: flex;
+    text-shadow: 2px 2px 5px #e70000;
+    margin-top: 15px;
     color: white;
     padding: 2px;
-    font-size: 40px;
+    font-size: 50px;
+    justify-content: center;
 }
 
 .about p{
@@ -264,7 +273,7 @@ body {
     margin-top: 50px;
     color: whitesmoke;
     padding: 10px;
-    font-size: 30px ;
+    font-size: 20px ;
 }
 
 .about img{
@@ -276,6 +285,8 @@ body {
     display: flex;
     margin-top: 25px;
     padding: 15px;
+    text-shadow: 2px 2px 5px #e70000;
+    font-size: 50px;
 }
 
 .sponsers {
@@ -308,6 +319,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 2px 5px #e70000;
+    font-size: 50px;
 }
 
 .member{
@@ -336,10 +349,12 @@ body {
 .contactus h1{
     display: flex;
     color: white;
-    align-content:center;
+    justify-content: center;
+    align-self: center;
     font-weight: bold;
-    font-size: 45px;
-    padding: 20px;
+    font-size: 50px;
+    padding: 0px;
+    text-shadow: 2px 2px 5px #e70000;
 }
 .list{
     color: white;
